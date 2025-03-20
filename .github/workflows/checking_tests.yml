@@ -26,8 +26,5 @@ jobs:
       - name: Build App
         run: npm run build
 
-      - name: Start Server
-        run: npm run start
-
       - name: Run Cypress tests
-        run: npm run test
+        run: npm run test-component
